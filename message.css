@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(rgba(119, 210, 246, 0.466), rgba(219, 247, 135, 0.703));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.counter{
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+   
+    }
+
+    #commentBox{
+    background-color:  rgba(138, 43, 227, 0.703);
+    width: 70%;
+    height: 60vh;
+ border: 2px solid black;
+ margin: 10% auto 20% auto;
+ display: flex;
+    padding: 1% 2% 5% 3%;
+   align-items: center;
+   box-shadow: 3px 5px 4px rgba(17, 3, 30, 0.621);
+   opacity:0;
+ 
+}
+
+header{color:rgb(237, 199, 9);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+margin-bottom: 2%;
+text-align:center;
+text-shadow: 3px 2px 3px rgba(17, 3, 30, 0.621);
+}
+input {
+    width: 80%
+}
+#submite{
+background-color: antiquewhite;
+}
+#output{
+    color:rgb(246, 206, 6);
+  text-shadow: 1px 1px 2px rgba(4, 0, 8, 0.621);
+    font-weight: bold;
+}
+@media(min-width: 800px){
+    #commentBox{
+        width: 50%;
+    }
+}
