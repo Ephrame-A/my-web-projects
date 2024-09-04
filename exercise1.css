@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right, rgb(210, 25, 100), rgb(120, 150, 0));
+}
+#container {width: 7px; height: 7px; border: 2px solid white; margin: auto; margin-top: 60px;
+    transform-origin: 0% 0%;
+    animation-name: wheel;
+    animation-duration: 10sec;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;}
+.wheel {
+   width: 80px; height: 5px; border: 2px solid white; margin: auto;
+   position: absolute;
+   transform-origin: 0% 0%;
+    animation-name: wheel;
+    animation-duration: 10sec;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.a {transform: rotate(0deg);}
+.b {transform: rotate(90deg);}
+.c {transform: rotate(-90deg);}
+.d {transform: rotate(180deg);}
+@keyframes wheel {
+    0% {transform: rotate(0); background-color: white;} 100% {transform: rotate(-360deg); background-color: black}
+}
