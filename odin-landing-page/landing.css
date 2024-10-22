@@ -1,0 +1,36 @@
+#services{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+   height: 50vh;
+   margin: 5%
+}
+.body > div{
+    margin: 5%
+}
+.header{
+    background-color: cornflowerblue;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-elems{
+    position: absolute;
+    right: 5%
+}
+
+.nav-elems > span{
+    margin: 2%;
+}
+.footer{
+    height: 20vh;
+    background-color: rgb(212, 150, 15);
+    padding: 3%;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
